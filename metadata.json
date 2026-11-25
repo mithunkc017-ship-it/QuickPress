@@ -1,0 +1,6 @@
+{
+  "name": "QuickPress",
+  "description": "Zero-queue QR print and Xerox center platform with instant photo capture, custom page and color configuration, digital payment, and live shop counter queue management.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

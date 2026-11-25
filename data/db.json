@@ -1,0 +1,179 @@
+{
+  "centers": [
+    {
+      "code": "XRX-104",
+      "name": "Campus Central Copy & Print",
+      "area": "Engineering Block Gate 2",
+      "address": "Shop 4, Student Plaza, Main Campus Road",
+      "hours": "07:30 AM – 10:30 PM",
+      "upiId": "campuscopy.xrx104@upi",
+      "printersOnline": 4,
+      "avgMinutesPerJob": 2,
+      "acceptingOrders": true,
+      "rates": {
+        "bwPerPage": 2,
+        "colorPerPage": 10,
+        "a3Multiplier": 2,
+        "legalMultiplier": 1.25,
+        "photo4x6PerPage": 20,
+        "duplexDiscountPerSheet": 0.5,
+        "gsm100ExtraPerSheet": 1.5,
+        "glossyExtraPerSheet": 8,
+        "staplePrice": 5,
+        "spiralPrice": 35,
+        "laminationPerSheet": 20
+      },
+      "createdAt": "2026-11-03T12:38:18.837Z"
+    },
+    {
+      "code": "XRX-208",
+      "name": "Metro Express Xerox Hub",
+      "area": "Central Metro Concourse",
+      "address": "Kiosk B-12, Exit Gate 3, Metro Station",
+      "hours": "06:00 AM – 11:00 PM",
+      "upiId": "metroxerox.208@upi",
+      "printersOnline": 3,
+      "avgMinutesPerJob": 2,
+      "acceptingOrders": true,
+      "rates": {
+        "bwPerPage": 2.5,
+        "colorPerPage": 12,
+        "a3Multiplier": 2,
+        "legalMultiplier": 1.25,
+        "photo4x6PerPage": 20,
+        "duplexDiscountPerSheet": 0.5,
+        "gsm100ExtraPerSheet": 1.5,
+        "glossyExtraPerSheet": 8,
+        "staplePrice": 5,
+        "spiralPrice": 40,
+        "laminationPerSheet": 20
+      },
+      "createdAt": "2026-11-08T12:38:18.837Z"
+    },
+    {
+      "code": "XRX-315",
+      "name": "TechPark 24x7 Document Studio",
+      "area": "Cyber Hub Tower B",
+      "address": "Ground Lobby, East Wing, TechPark",
+      "hours": "Open 24 Hours",
+      "upiId": "techparkprint.315@upi",
+      "printersOnline": 5,
+      "avgMinutesPerJob": 1.5,
+      "acceptingOrders": true,
+      "rates": {
+        "bwPerPage": 3,
+        "colorPerPage": 10,
+        "a3Multiplier": 2,
+        "legalMultiplier": 1.25,
+        "photo4x6PerPage": 20,
+        "duplexDiscountPerSheet": 0.5,
+        "gsm100ExtraPerSheet": 2,
+        "glossyExtraPerSheet": 8,
+        "staplePrice": 5,
+        "spiralPrice": 35,
+        "laminationPerSheet": 20
+      },
+      "createdAt": "2026-11-12T12:38:18.837Z"
+    }
+  ],
+  "orders": [
+    {
+      "token": "QP-4821",
+      "centerCode": "XRX-104",
+      "centerName": "Campus Central Copy & Print",
+      "customerName": "Aarav Mehta",
+      "customerPhone": "9876543210",
+      "files": [
+        {
+          "id": "seed-f1",
+          "name": "Thermodynamics_Lab_Report.pdf",
+          "mimeType": "application/pdf",
+          "sizeBytes": 1420500,
+          "detectedPages": 14,
+          "source": "upload",
+          "scanFilter": "original",
+          "previewUrl": null
+        }
+      ],
+      "options": {
+        "colorMode": "bw",
+        "paperSize": "A4",
+        "sides": "duplex",
+        "pageRangeMode": "all",
+        "customPageRange": "",
+        "orientation": "portrait",
+        "pagesPerSheet": 1,
+        "paperStock": "75gsm",
+        "finishing": "spiral",
+        "copies": 1,
+        "instructions": "Clear front cover sheet"
+      },
+      "pricing": {
+        "selectedPages": 14,
+        "effectiveSheetsPerCopy": 7,
+        "totalSheets": 7,
+        "printCost": 24.5,
+        "paperUpgradeCost": 0,
+        "finishingCost": 35,
+        "platformFee": 2,
+        "totalAmount": 61.5
+      },
+      "paymentMethod": "upi",
+      "paymentStatus": "paid",
+      "transactionId": "UPI4821904412",
+      "status": "printing",
+      "estimatedReadyAt": "2026-11-17T12:40:18.837Z",
+      "createdAt": "2026-11-17T12:35:18.837Z",
+      "updatedAt": "2026-11-17T12:37:18.837Z"
+    },
+    {
+      "token": "QP-4822",
+      "centerCode": "XRX-104",
+      "centerName": "Campus Central Copy & Print",
+      "customerName": "Priya Nair",
+      "customerPhone": "9820194421",
+      "files": [
+        {
+          "id": "seed-f2",
+          "name": "Campus_ID_Scan.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 482000,
+          "detectedPages": 1,
+          "source": "camera",
+          "scanFilter": "high-contrast",
+          "previewUrl": null
+        }
+      ],
+      "options": {
+        "colorMode": "color",
+        "paperSize": "A4",
+        "sides": "single",
+        "pageRangeMode": "all",
+        "customPageRange": "",
+        "orientation": "portrait",
+        "pagesPerSheet": 1,
+        "paperStock": "100gsm",
+        "finishing": "lamination",
+        "copies": 2,
+        "instructions": ""
+      },
+      "pricing": {
+        "selectedPages": 1,
+        "effectiveSheetsPerCopy": 1,
+        "totalSheets": 2,
+        "printCost": 20,
+        "paperUpgradeCost": 3,
+        "finishingCost": 40,
+        "platformFee": 2,
+        "totalAmount": 65
+      },
+      "paymentMethod": "upi",
+      "paymentStatus": "paid",
+      "transactionId": "UPI4822819930",
+      "status": "ready",
+      "estimatedReadyAt": "2026-11-17T12:37:48.837Z",
+      "createdAt": "2026-11-17T12:31:18.837Z",
+      "updatedAt": "2026-11-17T12:37:48.837Z"
+    }
+  ]
+}
